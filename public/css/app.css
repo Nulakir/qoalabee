@@ -1,0 +1,21 @@
+html {
+    background-color: #404352 !important;
+}
+
+.page_logo {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#matchPeople > div:not(:first-child) {
+    border: 5px solid #ffffff1a;
+}
+
+.uk-card[data-selected="0"] .uk-label {
+    visibility: hidden;
+}
+
+.uk-card[data-selected="1"] .uk-label {
+    visibility: visible;
+}
